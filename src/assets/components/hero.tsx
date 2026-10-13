@@ -18,7 +18,6 @@ const Hero = ({ settings }: { settings: SiteSettings }) => {
         <p>{settings.hero_subtitle}</p>
         <div className="hero-cta">
           <button className="btn-primary" onClick={() => navigate('/shop')}>View the Collection.</button>
-          <button className="btn-ghost">Style your look</button>
         </div>
       </div>
     </section>
